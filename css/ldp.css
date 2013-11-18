@@ -19,7 +19,6 @@ body {
 
 #pagina {
 	position: relative;
-	height: 500px;
 	width: 904px;
 	margin: 50px auto;
 	display: block;
@@ -89,7 +88,7 @@ header {
 }
 
 #firstLine .thumbnail{
-	width: 220px;
+	width: 250px;
 	margin: auto;
 	background-color: #F4F4F4;
 	-webkit-border-radius: 1px;
@@ -120,10 +119,169 @@ header {
 	margin: 10px;
 }
 
-#secondLine {
+.textoCaixas {
+	margin-top: 50px;
+}
+
+.col1{
 	
+}
+
+.col2{
+	
+}
+
+#secondLine {
+	margin-top: 70px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+#secondLine .thumbnail{
+	width: 250px;
+	margin: auto;
+	background-color: #F4F4F4;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-box-shadow: 3px 3px 5px #DDDDDD;
+	-moz-box-shadow: 3px 3px 5px #DDDDDD;
+	box-shadow: 3px 3px 5px #DDDDDD;
+	border-top: solid 5px #1088B6;
+	overflow: hidden;
 }
 
 #thirdLine {
 	
+}
+
+/* Classes auxiliares */
+.backgroudWhite {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.backgroundBlueWhite {
+	background-color: #1299CB;
+}
+
+.backgroundBlueDark {
+	background-color: #1088B6;
+}
+
+.btnStyle {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right;
+}
+
+.linkStyle {
+	float: right;
+	margin-top: 20px;
+}
+
+.linkStylePost {
+	float: right;
+	margin-top: 5px;
+}
+
+.ulInsideLi {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.dataPostStyleDia {
+	text-align: center;
+	font-weight: bold;
+	height: 35px;
+	padding-top: 10px;
+	width: 55px;
+}
+
+.dataPostStyleMes {
+	text-align: center;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 10px;
+	margin-top: -10px;
+	width: 55px;
+}
+
+.ulPost {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#carrosel {
+	margin: auto;
+	width: 850px;
+}
+
+#carrosel li {
+	border: solid 1px #DADADA;
+	margin: 5px;
+}
+
+#carrosel li img {
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+
+footer {
+	background-color: #DADADA;
+	min-height: 240px; 
+}
+
+.dadosFooter {
+	width: 904px;
+	margin: auto;
+}
+
+.dadosFooter h3 {
+	color: #6C6C6C;
+	background-color: #DADADA;
+	font-weight: normal;
+}
+
+.liInside {
+	width: 285px !important;
+	border-right: solid 1px #BABABE;
+	margin-top: 40px;
+}
+
+.liInside p {
+	padding-right: 25px;
+}
+
+.liInside2 {
+	width: 362px !important;
+	border-right: solid 1px #BABABE;
+	margin-top: 40px;
+}
+
+.liInside2 p {
+	padding-right: 25px;
+}
+
+.liInside3 {
+	width: 285px !important;
+	margin-top: 40px;
+}
+
+.liInside3 p {
+	padding-right: 25px;
+}
+
+.linkStyleFooter {
+	float: right;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-bottom: 30px solid transparent; 
+	border-right: 30px solid white; 
+	background-color: #DADADA;
 }
