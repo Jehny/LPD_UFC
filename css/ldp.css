@@ -308,3 +308,61 @@ footer {
 	border-right: 30px solid white; 
 	background-color: #DADADA;
 }
+
+/*
+Página de projeto
+*/
+.projeto .panel-group dt {
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.projeto .panel-group dt a {
+	color: #666666;
+}
+
+.projeto .panel-group dt span {
+	color: #666666;
+}
+
+.projeto .panel-group dd {
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;	
+}
+
+.header_projeto {
+	padding-top: 10px;
+	border-top: 3px solid #1088B6;
+}
+
+.header_projeto h1 {
+	position: relative;
+	background-color: #1088B6;
+	margin: -10px -4px 10px 0px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 150px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+	
+}
+
+.padding_top {
+	padding-top: 30px;
+}

@@ -35,6 +35,11 @@
 
 }
 
+.projeto .panel-group dd {
+	
+}
+
+
 /* Classe para Fontes */
 
 .open_regular {
@@ -72,6 +77,15 @@
 .font20 {
 	font-size: 20px;
 }
+
+.font22 {
+	font-size: 22px;
+}
+
+.font24 {
+	font-size: 22px;
+}
+
 
 .colorTextGray {
 	color: #585858;
