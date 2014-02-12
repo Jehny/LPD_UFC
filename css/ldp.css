@@ -326,10 +326,9 @@ Página de projeto
 	color: #333;
 	background-color: #f5f5f5;
 	border-color: #ddd;
-	padding: 10px 15px;
 	border-bottom: 1px solid transparent;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 .projeto .panel-group dt a {
@@ -385,11 +384,10 @@ Página de serviços
 	color: #333;
 	background-color: #f5f5f5;
 	border-color: #ddd;
-	padding: 10px 15px;
 	border-bottom: 1px solid transparent;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
-	min-height: 283px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	min-height: 303px;
 }
 
 .header_servicos {
@@ -419,6 +417,10 @@ Página de serviços
 	
 }
 
+.servicos p {
+	padding: 10px 15px;
+}
+
 /*
 Página de notícias
 */
@@ -427,11 +429,10 @@ Página de notícias
 	color: #333;
 	background-color: #f5f5f5;
 	border-color: #ddd;
-	padding: 10px 15px;
 	border-bottom: 1px solid transparent;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
-	min-height: 283px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	min-height: 303px;
 }
 
 .header_noticias {
@@ -458,7 +459,10 @@ Página de notícias
 	width: 150px;
 	padding-left: 15px;
 	margin-bottom: 40px;
-	
+}
+
+.noticias p {
+	padding: 10px 15px;
 }
 
 /*
@@ -469,11 +473,10 @@ Página de contato
 	color: #333;
 	background-color: #f5f5f5;
 	border-color: #ddd;
-	padding: 10px 15px;
 	border-bottom: 1px solid transparent;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
-	min-height: 283px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	min-height: 303px;
 }
 
 .header_contato {
@@ -500,5 +503,8 @@ Página de contato
 	width: 150px;
 	padding-left: 15px;
 	margin-bottom: 40px;
-	
+}
+
+.contato p {
+	padding: 10px 15px;
 }
